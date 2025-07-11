@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273F4F;
+}
+
+#converter-app {
+    width: 320px;
+    /* border: 2px solid black; */
+    padding: 45px 35px;
+    background-color: #D7D7D7;
+    border-radius: 15px;
+}
+
+#heading {
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+}
+
+#input-amount {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#para {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#input {
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#select-item {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* outline:none; */
+}
+
+.select {
+    border: none;
+    outline: 0;
+    width: 60%;
+    height: 100%;
+    border-radius: 5px;
+    background: transparent;
+    /* width: 80px;
+    height: 30px;
+    font-size: 18px; */
+    /* border-radius: 3px; */
+    /* outline: 0; */
+    /* border:none; */
+}
+
+#display-text {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#detail {
+    font-size: 18px;
+}
+
+#exchange-rate {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#btn {
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    border: none;
+    background-color: rgb(178, 45, 178);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}

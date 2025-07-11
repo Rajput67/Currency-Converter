@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="converter-app">
+            <div id="heading">
+                <h2>Currency Converter</h2>
+            </div>
+            <form action="./action.php">
+                <div id="input-amount">
+                    <p id="para">Enter Amount</p>
+                    <input type="number" name="number" id="input" placeholder="1000" value="1">
+                </div>
+                <div id="select-item">
+                    <div id="from">
+                        <p>From</p>
+                        <div class="first">
+                            <img src="https://flagsapi.com/US/shiny/64.png" alt="" class="img">
+                            <select name="from" id="from" class="select">
+                                <!-- <option value="inr">INR</option> -->
+                            </select>
+                        </div>
+                    </div>
+                    <div id="to">
+                        <p>To</p>
+                        <div class="first">
+                            <img src="https://flagsapi.com/IN/shiny/64.png" alt="" class="img">
+                            <select name="to" id="to" class="select">
+                                <!-- <option value="usd">USD</option> -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div id="display-text">
+                    <p id="detail">1000 USD = 82.4563 INR</p>
+                </div>
+                <div id="exchange-rate">
+                    <button id="btn">Get Exchange Rate</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="codes (1).js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
